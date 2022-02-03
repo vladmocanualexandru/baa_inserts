@@ -28,10 +28,14 @@ div#contentWrapper {
 }
 
 div#header {
+    position: fixed;
+    width:85%;
+    margin-top:-3px;
     text-align: center;
     padding:10px 0px;
     /* border-style: double; */
     border-bottom: 1px solid #333;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 div#navbar, div#pageContent {
@@ -45,7 +49,7 @@ div#navbar {
 }
 
 div#pageContent {
-    padding-top:40px;
+    padding-top:250px;
     padding-bottom:100px;
 }
 
