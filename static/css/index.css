@@ -63,7 +63,7 @@ div#navbar div.navbar_option:hover {
 
 div#footer {
     /* background-color: #F3BF42; */
-    background-image: url("../images/cutboard_texture.jpg");
+    background-image: url("../images/cutboard_texture.svg");
     background-repeat:repeat; 
     width:100%;
     text-align: center;
