@@ -38,6 +38,29 @@ div#header {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+div#image_container {
+    font-size: 0;
+}
+
+img#logoSheep{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img#logoSheep.collapsed {
+    margin-left:10px;
+    height: 40px;
+}
+
+img#logoText{
+    margin-top:-2px;
+}
+
+img#logoText.collapsed {
+    height: 0px;
+}
+
 div#navbar, div#pageContent {
     width:60%;
     margin-left:auto;
@@ -47,6 +70,12 @@ div#navbar, div#pageContent {
 div#navbar {
     padding-top:20px;
 }
+
+div#navbar.collapsed {
+    padding-top:0px;
+    margin-top:-40px
+}
+
 
 div#pageContent {
     padding-top:250px;
