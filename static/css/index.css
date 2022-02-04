@@ -104,7 +104,7 @@ div#footer {
 }
 
 div.blogPost {
-    margin-bottom:5em;
+    margin-bottom:8em;
 }
 
 div.blogPost.pinned {
@@ -113,14 +113,16 @@ div.blogPost.pinned {
 }
 
 div.blogPost div.header {
-    font-family: 'ssp';
+    font-family: 'ssp_bold';
     font-size: 1.5em;
 }
 
 div.blogPost div.tags div.tag {
     display:inline-block;
-    background: #DDD;
-    color:#000;
+    background: #999;
+    font-family: 'ssp_regular';
+    /* font-weight: bold; */
+    color:#FFF;
     border-radius: 4em;
     padding:0.5em 1em;
     margin:0 0.2em;
@@ -128,11 +130,27 @@ div.blogPost div.tags div.tag {
 }
 
 div.blogPost div.tags div.tag.insert {
-    background: #F3BF42;
+    background: #333;
 }
 
-div.blogPost div.tags div.tag.insert.finished {
-    background: #63ec39;
+div.blogPost div.tags div.tag.insert_designing {
+    background: #f34242;
+}
+
+div.blogPost div.tags div.tag.insert_designed {
+    background: #cea138;
+}
+
+div.blogPost div.tags div.tag.insert_built {
+    background: #409725;
+}
+
+div.blogPost div.tags div.tag.insert_complete {
+    background: #a439ec;
+    text-shadow:
+        0 0 7px #F3BF42,
+        0 0 10px #F3BF42,
+        0 0 21px #F3BF42;
 }
 
 div.blogPost div.content {
@@ -141,13 +159,13 @@ div.blogPost div.content {
     font-size: 1.1em;
 }
 
-div.blogPost div.content div.imgContainerHalf, 
-div.blogPost div.content div.textContainerHalf {
+div.blogPost div.content div.imgContainer, 
+div.blogPost div.content div.textContainer {
     display: inline-block;
     padding:1em;
-
 }
-div.blogPost div.content div.imgContainerHalf img {
+
+div.blogPost div.content div.imgContainer img {
     width:10em;
 }
 
