@@ -103,3 +103,59 @@ div#footer {
     padding:10px 0px;
 }
 
+div.blogPost {
+    margin-bottom:5em;
+}
+
+div.blogPost.pinned {
+    border-left:3px solid #F3BF42;
+    padding-left:1.5em;
+}
+
+div.blogPost div.header {
+    font-family: 'ssp';
+    font-size: 1.5em;
+}
+
+div.blogPost div.tags div.tag {
+    display:inline-block;
+    background: #DDD;
+    color:#000;
+    border-radius: 4em;
+    padding:0.5em 1em;
+    margin:0 0.2em;
+    font-size: 0.9em;
+}
+
+div.blogPost div.tags div.tag.insert {
+    background: #F3BF42;
+}
+
+div.blogPost div.tags div.tag.insert.finished {
+    background: #63ec39;
+}
+
+div.blogPost div.content {
+    width: 100%;
+    font-family: 'pt';
+    font-size: 1.1em;
+}
+
+div.blogPost div.content div.imgContainerHalf, 
+div.blogPost div.content div.textContainerHalf {
+    display: inline-block;
+    padding:1em;
+
+}
+div.blogPost div.content div.imgContainerHalf img {
+    width:10em;
+}
+
+div.blogPost div.content p {
+    margin: 1.5em 0;
+}
+
+div.blogPost div.footer {
+    border-top: 1px solid #333;
+}
+
