@@ -83,7 +83,7 @@ div#pageContent {
 }
 
 div#navbar div.navbar_option {
-    
+    color:#333;
     padding:10px 20px;
     display: inline-block;
 }
